@@ -85,7 +85,7 @@
 <body>
 
 <div class="profile-container">
-    <img src="IMG_2085-copy-1.jpeg" alt="Ảnh cá nhân." class="profile-photo">
+    <img src="https://ttrangcanhanhtml.w3spaces.com/IMG_2085.jpeg" alt="Ảnh cá nhân." class="profile-photo">
 
     <h1>Trần Quốc Anh.</h1>
     <p class="class-name">Học sinh lớp 12A - THPT Hưng Yên</p>
