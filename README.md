@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang cá nhân Trần Quốc Anh . - 12A</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f2f5;
+        }
+        .profile-container {
+            max-width: 700px;
+            margin: auto;
+            background: rgb(255, 255, 255);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .profile-photo {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin-bottom: 5px;
+            color: #333;
+        }
+        .class-name {
+            color: #777;
+            font-size: 1.1em;
+            margin-bottom: 25px;
+        }
+        .info-section {
+            text-align: left;
+            margin-top: 20px;
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+        h2 {
+            color: #4CAF50;
+            font-size: 1.3em;
+            margin-top: 0;
+        }
+        .info-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .info-list li {
+            padding: 8px 0;
+            color: #555;
+        }
+        .info-list li strong {
+            color: #333;
+            display: inline-block;
+            width: 120px;
+        }
+        .message {
+            font-style: italic;
+            color: #666;
+            line-height: 1.6;
+            margin-top: 20px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .back-link:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="profile-container">
+    <img src="IMG_2085-copy-1.jpeg" alt="Ảnh cá nhân." class="profile-photo">
+
+    <h1>Trần Quốc Anh.</h1>
+    <p class="class-name">Học sinh lớp 12A - THPT Hưng Yên</p>
+
+    <div class="info-section">
+        <h2>Thông tin bản thân</h2>
+        <ul class="info-list">
+            <li><strong>Ngày sinh:</strong> 22/10/2008</li>
+            <li><strong>Quê quán:</strong> TP Hưng Yên, Tỉnh Hưng Yên</li>
+            <li><strong>Vài nét:</strong> Thích thể thao, thích khám phá cái mới.</li>
+        </ul>
+    </div>
+
+    <div class="info-section">
+        <h2>Sở thích cá nhân</h2>
+        <p>⚽️Đá bóng,🏞️đi chơi ,😴ngủ , 🎧nghe nhạc , 🎮chơi game.</p>
+    </div>
+
+    <div class="info-section">
+        <h2>Lời nhắn nhủ & Cảm nghĩ</h2>
+        <p class="message">"Cảm ơn các bạn đã ghé thăm! Chúc cho chúng mình một năm 12 thật rực rỡ và đỗ vào nguyện vọng mơ ước nhé.❤️
+"</p>
+    </div>
+
+    <a href="trang_chu.html" class="back-link">Quay lại trang chủ lớp</a>
+</div>
+
+</body>
+</html>
